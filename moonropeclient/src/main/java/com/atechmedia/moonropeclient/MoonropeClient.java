@@ -85,7 +85,7 @@ public class MoonropeClient {
                 return new MoonropeResponseFailure("Moonrope Internal Error");
             }
         } else {
-            return new MoonropeResponseFailure(errorStream.toString());
+            return new MoonropeResponseFailure(streamToString(errorStream));
         }
     }
 
