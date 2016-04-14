@@ -17,8 +17,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-// have a quick look at the imports (coding convention)
-
 /**
  * Created by jonathan on 16/02/16.
  */
